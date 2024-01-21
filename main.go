@@ -1,13 +1,12 @@
 package main
 
 import (
-	
-	"github.com/TheOpsDev/inquire/cmd"
+	"github.com/TheOpsDev/inquire/inquire"
 )
 
 func main() {
 
-    
-    cmd.Execute()
-	
+	// cmd.Execute()
+
+	inquire.GetTimeSeriesDaily("AAPL", "")
 }
